@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admissions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F9F9F9;
+            color: #2C3E50;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #1A5276;
+            font-size: 28px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333333;
+            margin: 10px auto;
+            width: 70%;
+            line-height: 1.5;
+        }
+
+        .container {
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Admissions at Gitam</h2>
+        <p>Learn about our programs, eligibility, and application process.</p>
+    </div>
+</body>
+</html>

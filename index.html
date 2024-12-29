@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Gitam University Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #2C3E50;
+            background-color: #FAF9F6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align:left;
+            color: #2C3E50;
+        }
+
+        a {
+            font-size: 16px;
+            color: #2C3E50;
+            text-decoration: none;
+        }
+
+        .header, .navbar, .sidebar {
+            background-color: #D9E8F5;
+        }
+
+        .header img {
+            width: 50%;
+            height: auto;
+        }
+
+        .navbar a, .sidebar a {
+            color: #2C3E50;
+            display: block;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            background-color: #A3CBE8;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .sidebar {
+            width: 12.5%;
+            background-color: #F2F7FB;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+       .sidebar a:hover, .navbar a:hover {
+            background-color: #A3CBE8;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div style="display: flex; align-items: center;">
+            <div style="flex: 1;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsriUcrrpLREt5CqLA-iMSnmdK_AMbLvToeQ&s" 
+                     alt="Gitam University Logo">
+            </div>
+            <div style="flex: 3;">
+                <h1>GITAM University - <span style="color: #006666" >Shaping the Future</span></h1>
+            </div>"
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="home.html" target="content">Home</a>
+        <a href="login.html" target="content">Login</a>
+        <a href="registration.html" target="content">Registration</a>
+        <a href="academics.html" target="content">Academics</a>
+        <a href="campus.html" target="content">Campus Life</a>
+        <a href="contact.html" target="content">Contact Us</a>
+    </div>
+
+    <div class="content">
+        <div class="sidebar">
+            <a href="service1.html" target="content">Admissions</a>
+            <a href="service2.html" target="content">Research</a>
+            <a href="service3.html" target="content">Placements</a>
+            <a href="service4.html" target="content">Alumni</a>
+        </div>
+
+        <div class="main-content">
+            <iframe name="content"></iframe>
+        </div>
+    </div>
+</body>
+</html>
